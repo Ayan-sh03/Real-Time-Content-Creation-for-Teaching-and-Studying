@@ -60,14 +60,9 @@ Below is a flowchart that illustrates the process flow of the real-time content 
 
 ## User Interface
 
-![image](https://github.com/user-attachments/assets/512f9bb3-67d3-4791-a553-b466211b41c4)
-
-Figure 1.2 : Dashboard showcases a landing page dashboard designed for real-time content creation, specifically tailored for teaching and studying purposes. It features two main sections: a repository for accessing saved videos and a panel for creating new video content. The saved videos section provides easy access to previously recorded educational material, while the create new video panel offers a user-friendly interface for generating fresh content on-the-fly. Users can seamlessly integrate multimedia elements, engage in real-time editing, and potentially collaborate with others, fostering a dynamic environment for educational content creation and dessimation. 
-
-
 ![image](https://github.com/user-attachments/assets/84ffcf49-0470-4b60-9053-7d09dd12b6be)
 
-Figure 1.3 illustrates the central Content Creation User Interface (UI), where educational videos are showcased alongside a dedicated subscript section. This UI serves as the primary workspace for real-time content creation, providing users with dynamic video playback controls and an integrated subscript feature for enhancing comprehension. Through seamless synchronization between the video display area and the subscript section, users can engage with educational material efficiently while accessing supplementary information and annotations.The UI's customizable options and potential collaborative features foster an interactive and immersive learning experience, empowering educators and learners to create and engage with educational content effectively. 
+ illustrates the central Content Creation User Interface (UI), where educational videos are showcased alongside a dedicated subscript section. This UI serves as the primary workspace for real-time content creation, providing users with dynamic video playback controls and an integrated subscript feature for enhancing comprehension. Through seamless synchronization between the video display area and the subscript section, users can engage with educational material efficiently while accessing supplementary information and annotations.The UI's customizable options and potential collaborative features foster an interactive and immersive learning experience, empowering educators and learners to create and engage with educational content effectively. 
 
 ## 
 ## TECHNOLOGY USED
@@ -92,20 +87,14 @@ Figure 1.3 illustrates the central Content Creation User Interface (UI), where e
 **Real-time Communication**
 - Socket.io: Enables real-time communication between the backend and frontend, enhancing user engagement.
 **Natural Language Processing**
-- Gensim & Transformers: Used for topic modeling, similarity detection, text generation, and comprehension.
+- Gensim & Transformers: Used for Efficient Key word extraction
   
 ### External APIs
 **Google's Dynamic Image Search API**
 - Ensures real-time fetching of images, keeping search capabilities up-to-date.
 
-**Deepgram's Speech-to-Text API**
-- Provides high accuracy and low latency in transcribing lectures, capturing every word precisely.
-
 ## SYSTEM OVERVIEW
 ### 1.Modules
-**1.1 Speech to Text Module**
-- Utilizes Deepgram SDK and WebSockets for real-time audio transcription.
-- Handles connection events, receives transcripts, and ensures connection integrity.
 
 **1.2 Socket Setup and Events**
 - Establishes WebSocket connections between server and clients.
